@@ -1,6 +1,4 @@
-# [{{title}}](
-
-)
+# [{{title}}]()
 
 ---
 
@@ -29,7 +27,7 @@
 
   - > algorithm = we start looking at smallest value then go on to a bit larger value but at the benefit of optimization of length
 
-  - > DS = Monotonous #  can do the above in **O(1)** time per operation
+  - > DS = MonoQueue  can do the above in **O(1)** time per operation
 
 If we accumulate array A to obtain B, then `B[l] <= B[r] - K` indicates `sum(A[l:r]) >= K`. Given `B[r]`, the problem is equivalent to finding the **nearest** previous element `B[l]` such that `B[l] <= B[r] - K`.
 
